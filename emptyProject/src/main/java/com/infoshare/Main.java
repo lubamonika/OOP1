@@ -4,16 +4,21 @@ public class Main {
 
     public static void main( String[] args ) {
 
-        Pies pies1 = new Pies("Chihuahua", 1.8, "Ewita", 20);
-        Pies pies2 = new Pies("Chihuahua", 5.2, "Lola", 27);
-        Pies pies3 = new Pies("Kundel", 54.0, "Gertruda", 164);
+        Suka suka1 = new Suka("Chihuahua", 1.8, "Ewita");
+        Pies suka2 = new Suka("Chihuahua", 5.2, "Lola", 27);
+        Pies suka3 = new Suka("Kundel", 54.0, "Gertruda", 164);
+        Pies pies4 = new PiesSamiec();
 
-        pies1.szczekaj();
-        pies1.bmi();
-        pies2.szczekaj();
-        pies2.bmi();
-        pies3.szczekaj();
-        pies3.bmi();
+
+        suka1.szczekaj();
+        suka1.bmi();
+        suka2.szczekaj();
+        suka2.bmi();
+        suka3.szczekaj();
+        suka3.bmi();
+        pies4.szczekaj();
+        pies4.bmi();
+        suka1.szczekajSuko();
     }
 
 }
